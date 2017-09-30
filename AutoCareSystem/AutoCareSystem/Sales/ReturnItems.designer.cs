@@ -333,7 +333,7 @@
             this.btnAddReturn.IconVisible = true;
             this.btnAddReturn.IconZoom = 50D;
             this.btnAddReturn.IsTab = false;
-            this.btnAddReturn.Location = new System.Drawing.Point(24, 226);
+            this.btnAddReturn.Location = new System.Drawing.Point(23, 215);
             this.btnAddReturn.Name = "btnAddReturn";
             this.btnAddReturn.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.btnAddReturn.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));

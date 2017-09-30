@@ -1,0 +1,199 @@
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.config
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.manifest
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.application
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.pdb
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\MaterialSkin.dll
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.dll
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.csprojResolveAssemblyReference.cache
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_fault_details.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_repair_types.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_service.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MainView.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.payment_handle.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_details.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_handle.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_payment.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_handle.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_details.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_payment.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFunc.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Properties.Resources.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.update_job_status.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.update_service_form.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.vehicle_manage.resources
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.csproj.GenerateResource.Cache
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe.manifest
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.application
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe
+C:\Users\Tharindu TCJ\documents\visual studio 2015\Projects\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.pdb
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.config
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.manifest
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.application
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.pdb
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\MaterialSkin.dll
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.Design.dll
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.dll
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.Fonts.dll
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_repair_types.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_service.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MyDialog.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MainView.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_repair_faults.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_details.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MyPrompt.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_handle.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.payment_handle.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_charges.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_handle.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_details.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFunc.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Properties.Resources.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.update_job_status.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.update_service_form.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.vehicle_manage.resources
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.csproj.GenerateResource.Cache
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe.manifest
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.application
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.pdb
+E:\My Drive\ITP\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.csprojResolveAssemblyReference.cache
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.csprojResolveAssemblyReference.cache
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MainView.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Properties.Resources.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_repair_faults.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_repair_types.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_service.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MyDialog.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.payment_handle.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_details.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_handle.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_charges.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_details.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_handle.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFunc.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.update_job_status.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.update_service_form.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.vehicle_manage.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MyPrompt.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Notification.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Order1.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Order2.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Order_Handle.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Reports.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Stock_Handle.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFuncIshara.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Supplier_Handle.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.csproj.GenerateResource.Cache
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.config
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.manifest
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.application
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.pdb
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\MaterialSkin.dll
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.dll
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe.manifest
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.application
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.pdb
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.DefectiveItem.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.ItemMaintanance.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.RentVehicleMaintanance.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.ServiceStationItems.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFuncLahiru.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.VehicleRenew.resources
+C:\Users\Tharindu TCJ\Desktop\Integrate\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.VehicleService.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.config
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.manifest
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.application
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.pdb
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\MaterialSkin.dll
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.dll
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Appointment_main.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Appointmet_sub.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.assign_technicain.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.customer_manage.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.customer_manage_sub.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.customer_manage_sub_view.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Form1.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.slots.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Login.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MainView.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Properties.Resources.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.ReturnItems.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Salesitemupdate.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SalesSubFunc.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Sales_Bill.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Sales_Items.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Sales_report.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.updatesalesitems.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_repair_faults.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_repair_types.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.add_service.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MyDialog.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.payment_handle.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_details.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.repair_handle.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_charges.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_details.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.service_handle.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFunc.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.update_job_status.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.update_service_form.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.vehicle_manage.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.MyPrompt.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Notification.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Order1.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Order2.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Order_Handle.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Reports.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Stock_Handle.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFuncIshara.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.Supplier_Handle.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.DefectiveItem.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.ItemMaintanance.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.RentVehicleMaintanance.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.ServiceStationItems.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFuncLahiru.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.VehicleRenew.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.VehicleService.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_billing_details.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_issue_the_invoice.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Manage_Customers.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Manage_Customers_sub_manage_cus.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Manage_Customers_sub_view_customer.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Rental_Detail_new.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Rental_Detail_new_sub1_avl_rv_deti.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Rental_Detail_new_sub2_mannage_rental_deti.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Rental_Detail_new_sub3_view_rental_detai.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Rental_Vehicle.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Rental_Vehicle_sub_manageVehicle.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rs_Rental_Vehicle_sub_viewVEhicles.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.rv_subfubctions.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.bills.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.bills_expenses.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.bills_income.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.bills_manage.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.expenses.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.f_stats.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.income.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.loans.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.profit_loss.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.SubFuncSameer.resources
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.csproj.GenerateResource.Cache
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe.manifest
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.application
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.pdb
+C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.csprojResolveAssemblyReference.cache
+F:\itp\final phototype\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.config
+F:\itp\final phototype\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe
+F:\itp\final phototype\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.pdb

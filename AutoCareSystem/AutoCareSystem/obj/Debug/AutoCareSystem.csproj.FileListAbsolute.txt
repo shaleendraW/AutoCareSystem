@@ -197,3 +197,6 @@ C:\Users\Tharindu TCJ\Desktop\Just\AutoCareSystem\AutoCareSystem\obj\Debug\AutoC
 F:\itp\final phototype\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.config
 F:\itp\final phototype\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe
 F:\itp\final phototype\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.pdb
+F:\itp\final phototype\git\AutoCareSystem\AutoCareSystem\bin\Debug\AutoCareSystem.exe.config
+F:\itp\final phototype\git\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.exe
+F:\itp\final phototype\git\AutoCareSystem\AutoCareSystem\obj\Debug\AutoCareSystem.pdb

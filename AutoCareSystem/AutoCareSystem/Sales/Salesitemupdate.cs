@@ -25,7 +25,7 @@ namespace AutoCareSystem
             try
             {
                 Database db = new Database();
-                string query = "select sales_id AS'SalesID',item_id AS 'ItemID',cus_id AS 'CustomerID',cus_name AS'Name',cus_address AS 'Address',cus_telephone AS 'Telephone',quantity AS 'Quantity',total_price AS 'Total Price' ,discount AS 'Discount' ,price AS 'Unitprice' from Salesview";
+                string query = "select s.sales_id AS'SalesID',si.item_id AS 'ItemID',sc.cus_id AS 'CustomerID',sc.cus_name AS'Name',sc.cus_address AS 'Address',sc.cus_telephone AS 'Telephone',si.quantity AS 'Quantity',s.total_price AS 'Total Price' ,si.discount AS 'Discount' ,si.price AS 'Unitprice' from sales s,sales_items si,salescustomer sc  where s.sales_id=si.sales_id and sc.cus_id=s.cus_id";
 
                 db.sqlQuery(query);
                 DataTable dt = db.executeQuery();
@@ -50,7 +50,7 @@ namespace AutoCareSystem
             try
             {
                 Database db = new Database();
-                string query = "select sales_id AS'SalesID',item_id AS 'ItemID',cus_id AS 'CustomerID',cus_name AS'Name',cus_address AS 'Address',cus_telephone AS 'Telephone',quantity AS 'Quantity',total_price AS 'Total Price' ,discount AS 'Discount' ,price AS 'Unitprice' from Salesview WHERE sales_id='" + searchkey + "'";
+                string query = "select s.sales_id AS'SalesID',si.item_id AS 'ItemID',sc.cus_id AS 'CustomerID',sc.cus_name AS'Name',sc.cus_address AS 'Address',sc.cus_telephone AS 'Telephone',si.quantity AS 'Quantity',s.total_price AS 'Total Price' ,si.discount AS 'Discount' ,si.price AS 'Unitprice' from sales s,sales_items si,salescustomer sc  where s.sales_id=si.sales_id and sc.cus_id=s.cus_id and s.sales_id='" + searchkey + "'";
 
                 db.sqlQuery(query);
                 DataTable dt = db.executeQuery();
@@ -88,7 +88,36 @@ namespace AutoCareSystem
 
         }
 
+        void updateSalesCustomer(string cusID, String Name, String Addres, string telephone)
+        {
 
+            string query = "UPDATE salescustomer SET cus_name='" + Name + "',cus_address='" + Addres + "',cus_telephone ='" + telephone + "' WHERE cus_id = '" + cusID + "'";
+            Database db = new Database();
+            db.sqlQuery(query);
+            db.nonQuery();
+            db.getConnection().Close();
+            String r_code = CodeGenerator.getLastInsertId("sales", "sales_id");
+            lodeGridViewforsalesbySearch(r_code);
+            resetFields();
+
+
+
+
+        }
+
+        void updateSales(string Salesid, float total)
+        {
+
+            string query = "UPDATE sales SET total_price='" + total + "' WHERE sales_id = '" + Salesid + "'";
+            Database db = new Database();
+            db.sqlQuery(query);
+            db.nonQuery();
+            db.getConnection().Close();
+            String r_code = CodeGenerator.getLastInsertId("sales", "sales_id");
+            lodeGridViewforsalesbySearch(r_code);
+            resetFields();
+
+        }
 
 
         private void SalesdataGrid_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -124,6 +153,7 @@ namespace AutoCareSystem
 
         private void btnRepairUpdate_Click(object sender, EventArgs e)
         {
+
             if (string.IsNullOrWhiteSpace(Nametxt.Text) && string.IsNullOrWhiteSpace(Addresstxt.Text) && string.IsNullOrWhiteSpace(Quntitytxt.Text) && string.IsNullOrWhiteSpace(Telephonetxt.Text) && string.IsNullOrWhiteSpace(itemidtxt.Text))
             {
                 MyDialog.Show("Error...!", "Plese fill all fields");
@@ -147,14 +177,20 @@ namespace AutoCareSystem
                 tot = tot + (((float.Parse(Quntitytxt.Text) * unitprice) - float.Parse(Discounttxt.Text)));
 
 
-                string query = "UPDATE Salesview set cus_name='" + Nametxt + "' ,cus_address='" + Addresstxt.Text + "',cus_telephone = '" + Telephonetxt.Text + "',Quantity='" + Quntitytxt.Text + "',total_price ='" + tot + "' ,discount='" + Discounttxt.Text + "' where item_id ='" + Itemid + "' ";
+                //string query = "UPDATE Salesview set cus_name='" + Nametxt + "' ,cus_address='" + Addresstxt.Text + "',cus_telephone = '" + Telephonetxt.Text + "',Quantity='" + Quntitytxt.Text + "',total_price ='" + tot + "' ,discount='" + Discounttxt.Text + "' where item_id ='" + Itemid + "' ";
+                //Database db = new Database();
+                //db.sqlQuery(query);
+                updateSalesCustomer(cusid, Nametxt.Text, Addresstxt.Text, Telephonetxt.Text);
+                updateSales(sid, tot);
+                string query = "UPDATE sales_items SET discount='" + float.Parse(Discounttxt.Text) + "',quantity='" + float.Parse(Quntitytxt.Text) + "' WHERE item_id = '" + Itemid + "'";
                 Database db = new Database();
                 db.sqlQuery(query);
                 if (db.nonQuery())
                 {
                     MyDialog.Show("Success...!", "Sales Charges updated");
-                    LodesalesGridView();
+
                     resetFields();
+                    LodesalesGridView();
 
                 }
                 else
@@ -168,8 +204,6 @@ namespace AutoCareSystem
 
         private void btnRepairRemove_Click(object sender, EventArgs e)
         {
-
-
             if (string.IsNullOrWhiteSpace(Nametxt.Text) && string.IsNullOrWhiteSpace(Addresstxt.Text) && string.IsNullOrWhiteSpace(Quntitytxt.Text) && string.IsNullOrWhiteSpace(Telephonetxt.Text) && string.IsNullOrWhiteSpace(itemidtxt.Text))
             {
                 MyDialog.Show("Error...!", "Plese fill all fields");
@@ -197,12 +231,12 @@ namespace AutoCareSystem
                 if (confirmResult == DialogResult.Yes)
                 {
 
-                    string query = "DELETE FROM Salesview WHERE item_id = '" + Itemid + "'";
+                    string query = "DELETE FROM sales_items WHERE item_id = '" + Itemid + "'";
                     Database db = new Database();
                     db.sqlQuery(query);
                     db.nonQuery();
                     db.getConnection().Close();
-                    LodesalesGridView();
+
                     resetFields();
                     tot = total - Quntity * unitprice;
 
@@ -210,22 +244,7 @@ namespace AutoCareSystem
 
 
 
-
-
-                string query1 = "UPDATE Salesview set total_price ='" + tot + "' where item_id='" + Itemid + "' ";
-                Database db1 = new Database();
-                db1.sqlQuery(query1);
-                if (db1.nonQuery())
-                {
-                    MyDialog.Show("Success...!", "Sales Charges updated");
-
-                }
-                else
-                {
-                    MyDialog.Show("Error...!", "Sales Charges not updated");
-                }
-                db1.getConnection().Close();
-
+                updateSales(sid, tot);
                 LodesalesGridView();
                 resetFields();
 
@@ -233,9 +252,7 @@ namespace AutoCareSystem
 
 
             }
-
         }
-
         private void btnRepairClear_Click(object sender, EventArgs e)
         {
             LodesalesGridView();

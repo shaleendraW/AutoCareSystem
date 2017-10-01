@@ -53,6 +53,7 @@
             this.btnRepairRemove = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnRepairUpdate = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnRepairClear = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txtTest = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SalesdataGrid)).BeginInit();
@@ -193,7 +194,7 @@
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox2.Controls.Add(this.SalesdataGrid);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(5, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(721, 261);
@@ -212,7 +213,7 @@
             this.SalesdataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -222,7 +223,7 @@
             this.SalesdataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -368,6 +369,7 @@
             this.groupBox3.Controls.Add(this.btnRepairRemove);
             this.groupBox3.Controls.Add(this.btnRepairUpdate);
             this.groupBox3.Controls.Add(this.btnRepairClear);
+            this.groupBox3.Controls.Add(this.txtTest);
             this.groupBox3.Location = new System.Drawing.Point(5, 433);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(721, 105);
@@ -518,6 +520,26 @@
             this.btnRepairClear.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRepairClear.Click += new System.EventHandler(this.btnRepairClear_Click);
             // 
+            // txtTest
+            // 
+            this.txtTest.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtTest.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txtTest.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtTest.HintForeColor = System.Drawing.Color.Empty;
+            this.txtTest.HintText = "";
+            this.txtTest.isPassword = false;
+            this.txtTest.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txtTest.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtTest.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txtTest.LineThickness = 2;
+            this.txtTest.Location = new System.Drawing.Point(68, 8);
+            this.txtTest.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTest.Name = "txtTest";
+            this.txtTest.Size = new System.Drawing.Size(270, 28);
+            this.txtTest.TabIndex = 9;
+            this.txtTest.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // updatesalesitems
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -564,5 +586,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnPrint;
         public Bunifu.Framework.UI.BunifuMaterialTextbox Nametxt;
         public Bunifu.Framework.UI.BunifuMaterialTextbox itemidtxt;
+        public Bunifu.Framework.UI.BunifuMaterialTextbox txtTest;
     }
 }

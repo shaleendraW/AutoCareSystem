@@ -47,7 +47,7 @@ namespace AutoCareSystem
             try
             {
                 Database db = new Database();
-                string query = "SELECT sales_id AS 'SALESID', cus_name AS 'Customer',  item_id AS 'ItemID',stock_id AS StorkID,return_cnt AS'ReturnCount',quantity AS 'Quantity',unit_price AS 'UnitPrice',total_price AS 'Total Price' FROM SalesandSalesItems ";
+                string query = "SELECT s.sales_id AS 'SALESID', sc.cus_name AS 'Customer',  si.item_id AS 'ItemID',si.stock_id AS StorkID,si.return_cnt AS'ReturnCount',si.quantity AS 'Quantity',st.unit_price AS 'UnitPrice',s.total_price AS 'Total Price' FROM sales s,sales_items si,stocks st,salescustomer sc where s.sales_id = si.sales_id and s.cus_id = sc.cus_id and si.stock_id = st.item_code ";
 
                 db.sqlQuery(query);
                 DataTable dt = db.executeQuery();
@@ -80,7 +80,7 @@ namespace AutoCareSystem
             try
             {
                 Database db = new Database();
-                string query = "SELECT sales_id AS 'SALESID', cus_name AS 'Customer',  item_id AS 'ItemID',stock_id AS StorkID,return_cnt AS'ReturnCount',quantity AS 'Quantity',unit_price AS 'UnitPrice',total_price AS 'Total Price' FROM SalesandSalesItems WHERE sales_id='" + searchkey + "'";
+                string query = "SELECT s.sales_id AS 'SALESID', sc.cus_name AS 'Customer',  si.item_id AS 'ItemID',si.stock_id AS StorkID,si.return_cnt AS'ReturnCount',si.quantity AS 'Quantity',st.unit_price AS 'UnitPrice',s.total_price AS 'Total Price' FROM sales s,sales_items si,stocks st,salescustomer sc where s.sales_id = si.sales_id and s.cus_id = sc.cus_id and si.stock_id = st.item_code and s.sales_id='" + searchkey + "'";
 
                 db.sqlQuery(query);
                 DataTable dt = db.executeQuery();
@@ -122,10 +122,10 @@ namespace AutoCareSystem
             }
         }
 
-        void updateSales(int returncnt,string itemid,float total)
+        void updateSalesItem(string itemid,int returncnt)
         {
             
-            string query = "UPDATE SalesandSalesItems SET return_cnt='" + returncnt + "', total_price='"+ total +"' WHERE item_id = '" + itemid+ "'";
+            string query = "UPDATE sales_items SET return_cnt='" + returncnt + "' WHERE item_id = '" + itemid+ "'";
             Database db = new Database();
             db.sqlQuery(query);
             db.nonQuery();
@@ -135,6 +135,19 @@ namespace AutoCareSystem
 
 
 
+
+        }
+
+        void updateSales(string Salesid, float total)
+        {
+
+            string query = "UPDATE sales SET total_price='" + total + "' WHERE sales_id = '" + Salesid + "'";
+            Database db = new Database();
+            db.sqlQuery(query);
+            db.nonQuery();
+            db.getConnection().Close();
+            lodeGridViewforsales();
+            resetFields();
 
         }
         private void enableButtons(bool b)
@@ -277,7 +290,9 @@ namespace AutoCareSystem
                 string query = "INSERT INTO return_items VALUES('" + ReturnID + "','" + salsid + "','"+ storkid + "','" + Reson + "','" + DateTime.Now + "','" + Quantity + "')";
                 Database db = new Database();
                 db.sqlQuery(query);
-                updateSales(returncont, itemid, total);
+                // updateSales(returncont, itemid, total);
+                updateSalesItem(itemid, returncont);
+                updateSales(salsid, total);
                 if (db.nonQuery())
                 {
                     MyDialog.Show("Success...!", "ReturnItem added :)");
@@ -326,8 +341,10 @@ namespace AutoCareSystem
                     string query = "DELETE FROM return_items WHERE return_id = '" + id + "' ";
                     Database db = new Database();
                     db.sqlQuery(query);    //pass query to sql query method
-                    updateSales(returncount, itemid, total);
-                    db.nonQuery();          //pass the cmd to nonQuery method(for Insert)
+                                           //updateSales(returncount, itemid, total);
+                updateSalesItem(itemid, returncount);
+                updateSales(sid, total);
+                db.nonQuery();          //pass the cmd to nonQuery method(for Insert)
                     db.getConnection().Close();
                     lodeGridViewforreturn();       //reload table
                 }

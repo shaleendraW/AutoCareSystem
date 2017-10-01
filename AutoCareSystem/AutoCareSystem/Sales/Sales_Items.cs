@@ -564,5 +564,14 @@ namespace AutoCareSystem
         {
             e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back) || char.IsNumber(e.KeyChar);
         }
+
+        private void btnClearReturn_Click(object sender, EventArgs e)
+        {
+            resetFields();
+
+            txtName.Enabled = true;
+            txtAddress.Enabled = true;
+            txttelephone.Enabled = true;
+        }
     }
 }

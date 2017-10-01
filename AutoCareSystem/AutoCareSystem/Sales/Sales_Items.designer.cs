@@ -72,6 +72,7 @@
             this.txtAddress = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txtName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnClearReturn = new Bunifu.Framework.UI.BunifuFlatButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerDataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -468,6 +469,7 @@
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox5.Controls.Add(this.btnClearReturn);
             this.groupBox5.Controls.Add(this.btnAdd);
             this.groupBox5.Controls.Add(this.materialLabel4);
             this.groupBox5.Controls.Add(this.txtItemID);
@@ -503,13 +505,13 @@
             this.btnAdd.IconVisible = true;
             this.btnAdd.IconZoom = 50D;
             this.btnAdd.IsTab = false;
-            this.btnAdd.Location = new System.Drawing.Point(30, 181);
+            this.btnAdd.Location = new System.Drawing.Point(6, 193);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.btnAdd.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.btnAdd.OnHoverTextColor = System.Drawing.Color.White;
             this.btnAdd.selected = false;
-            this.btnAdd.Size = new System.Drawing.Size(100, 40);
+            this.btnAdd.Size = new System.Drawing.Size(73, 28);
             this.btnAdd.TabIndex = 157;
             this.btnAdd.Text = "   Add";
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -745,6 +747,42 @@
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 6;
             // 
+            // btnClearReturn
+            // 
+            this.btnClearReturn.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
+            this.btnClearReturn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
+            this.btnClearReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnClearReturn.BorderRadius = 7;
+            this.btnClearReturn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnClearReturn.ButtonText = " Clear";
+            this.btnClearReturn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClearReturn.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.btnClearReturn.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnClearReturn.Iconimage = global::AutoCareSystem.Properties.Resources.Erase_32px;
+            this.btnClearReturn.Iconimage_right = null;
+            this.btnClearReturn.Iconimage_right_Selected = null;
+            this.btnClearReturn.Iconimage_Selected = null;
+            this.btnClearReturn.IconMarginLeft = 0;
+            this.btnClearReturn.IconMarginRight = 0;
+            this.btnClearReturn.IconRightVisible = true;
+            this.btnClearReturn.IconRightZoom = 0D;
+            this.btnClearReturn.IconVisible = true;
+            this.btnClearReturn.IconZoom = 50D;
+            this.btnClearReturn.IsTab = false;
+            this.btnClearReturn.Location = new System.Drawing.Point(80, 192);
+            this.btnClearReturn.Name = "btnClearReturn";
+            this.btnClearReturn.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
+            this.btnClearReturn.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
+            this.btnClearReturn.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnClearReturn.selected = false;
+            this.btnClearReturn.Size = new System.Drawing.Size(74, 29);
+            this.btnClearReturn.TabIndex = 164;
+            this.btnClearReturn.Text = " Clear";
+            this.btnClearReturn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClearReturn.Textcolor = System.Drawing.Color.White;
+            this.btnClearReturn.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClearReturn.Click += new System.EventHandler(this.btnClearReturn_Click);
+            // 
             // Sales_Items
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -815,5 +853,6 @@
         public System.Windows.Forms.Label label2;
         public Bunifu.Framework.UI.BunifuMaterialTextbox txttelephone;
         private Bunifu.Framework.UI.BunifuCustomDataGrid SalesdataGrid;
+        private Bunifu.Framework.UI.BunifuFlatButton btnClearReturn;
     }
 }

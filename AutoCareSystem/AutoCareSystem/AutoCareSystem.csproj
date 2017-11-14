@@ -149,6 +149,42 @@
     <Compile Include="Appointment\slots.designer.cs">
       <DependentUpon>slots.cs</DependentUpon>
     </Compile>
+    <Compile Include="Employee\AttendanceDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Employee\AttendanceDetails.designer.cs">
+      <DependentUpon>AttendanceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\cal_salary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Employee\cal_salary.designer.cs">
+      <DependentUpon>cal_salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\Employee details.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Employee\Employee details.designer.cs">
+      <DependentUpon>Employee details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\EmployeeSubFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\EmployeeSubFunc.designer.cs">
+      <DependentUpon>EmployeeSubFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\Employee_registration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Employee\Employee_registration.designer.cs">
+      <DependentUpon>Employee_registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\record_attendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Employee\record_attendance.designer.cs">
+      <DependentUpon>record_attendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -555,6 +591,24 @@
     <EmbeddedResource Include="Appointment\slots.resx">
       <DependentUpon>slots.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Employee\AttendanceDetails.resx">
+      <DependentUpon>AttendanceDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\cal_salary.resx">
+      <DependentUpon>cal_salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\Employee details.resx">
+      <DependentUpon>Employee details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\EmployeeSubFunc.resx">
+      <DependentUpon>EmployeeSubFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\Employee_registration.resx">
+      <DependentUpon>Employee_registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\record_attendance.resx">
+      <DependentUpon>record_attendance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -773,144 +827,27 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Planner_96px.png" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Accounting_96px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Maintenance_96px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Planner_96px1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Shop_96px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Unt5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Cancel_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Erase_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Plus_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Receipt_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Trash_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Search_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Save_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Print_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Documents_50px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Management_50px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SMS_50px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Under Computer_32px_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Name_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Password_32px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Bill.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Logout Rounded Left_32px.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Available Updates_32px.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Web Search_50px.png" />
+    <None Include="Resources\Bill_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_32px.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Car Rental_96px.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sell Stock_96px.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Car Service_96px.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Group Background Selected_96px.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Combo Chart_50px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Shopping Cart Loaded_50px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Car Badge-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Contacts_32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Contacts_321.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Car Badge-321.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Purchase Order.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Chart Filled-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Sales Performance Filled-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Return Filled-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Process Filled-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Audit-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Workers-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Map Marker-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-User-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-Today-32.png" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <None Include="Resources\Statistics_96px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bill_96px.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Debt_96px.png" />
@@ -919,10 +856,184 @@
     <None Include="Resources\Decrease_96px.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Documents_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erase_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group Background Selected_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Add User Group Man Man Filled-32%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Attendance Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Audit-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Calculator Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Calculator Filled-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Calculator-32 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Calculator-32 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Calculator-32 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Calculator-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Camera Identification Filled-32 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Camera Identification Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Camera Identification-32 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Camera Identification-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Car Badge-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Car Badge-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Chart Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Contact Details Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Contacts_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Contacts_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Map Marker-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Paycheque-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Print Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Process Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Purchase Order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Return Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Sales Performance Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Today-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-User-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-User-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-User-100 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-View Details Filled-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Workers-32.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Increase_96px.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Logout Rounded Left_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maintenance_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Management_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Name_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo browse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Planner_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Planner_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Profit_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Receipt_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sell Stock_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shop_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Cart Loaded_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SMS_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Statistics_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Under Computer_32px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unt5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Web Search_50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

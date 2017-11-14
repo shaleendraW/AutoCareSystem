@@ -11,7 +11,7 @@ namespace AutoCareSystem
 {
     class Database
     {
-        private static String conString = "server=localhost;Trusted_Connection=yes;database=auto_care;connection timeout=30";
+        private static String conString = "server=localhost;Trusted_Connection=yes;database=FINAL_8;connection timeout=30";
         private SqlConnection con;
         private SqlCommand cmd;
         private SqlDataAdapter da;

@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -43,6 +42,7 @@
             this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -62,16 +62,6 @@
             this.panel1.Size = new System.Drawing.Size(816, 172);
             this.panel1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AutoCareSystem.Properties.Resources.Unt5;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(243, 92);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
             // bunifuCustomLabel5
             // 
             this.bunifuCustomLabel5.AutoSize = true;
@@ -86,22 +76,22 @@
             // bunifuCustomLabel4
             // 
             this.bunifuCustomLabel4.AutoSize = true;
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Digital-7 Mono", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.White;
             this.bunifuCustomLabel4.Location = new System.Drawing.Point(708, 37);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(90, 21);
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(98, 25);
             this.bunifuCustomLabel4.TabIndex = 4;
             this.bunifuCustomLabel4.Text = "00:00:00";
             // 
             // bunifuCustomLabel3
             // 
             this.bunifuCustomLabel3.AutoSize = true;
-            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Digital-7 Mono", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.White;
             this.bunifuCustomLabel3.Location = new System.Drawing.Point(660, 9);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(142, 28);
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(162, 31);
             this.bunifuCustomLabel3.TabIndex = 3;
             this.bunifuCustomLabel3.Text = "0000-00-00";
             // 
@@ -133,7 +123,7 @@
             this.bunifuTileButton5.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.bunifuTileButton5.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.bunifuTileButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton5.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.bunifuTileButton5.ForeColor = System.Drawing.Color.White;
             this.bunifuTileButton5.Image = global::AutoCareSystem.Properties.Resources.Car_Rental_96px;
             this.bunifuTileButton5.ImagePosition = 20;
@@ -153,7 +143,7 @@
             this.bunifuTileButton6.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.bunifuTileButton6.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.bunifuTileButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton6.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.bunifuTileButton6.ForeColor = System.Drawing.Color.White;
             this.bunifuTileButton6.Image = global::AutoCareSystem.Properties.Resources.Maintenance_96px;
             this.bunifuTileButton6.ImagePosition = 20;
@@ -173,7 +163,7 @@
             this.bunifuTileButton7.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.bunifuTileButton7.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.bunifuTileButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton7.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.bunifuTileButton7.ForeColor = System.Drawing.Color.White;
             this.bunifuTileButton7.Image = global::AutoCareSystem.Properties.Resources.Shop_96px;
             this.bunifuTileButton7.ImagePosition = 20;
@@ -193,7 +183,7 @@
             this.bunifuTileButton8.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.bunifuTileButton8.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.bunifuTileButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton8.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.bunifuTileButton8.ForeColor = System.Drawing.Color.White;
             this.bunifuTileButton8.Image = global::AutoCareSystem.Properties.Resources.Accounting_96px;
             this.bunifuTileButton8.ImagePosition = 20;
@@ -213,7 +203,7 @@
             this.bunifuTileButton4.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.bunifuTileButton4.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.bunifuTileButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton4.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.bunifuTileButton4.ForeColor = System.Drawing.Color.White;
             this.bunifuTileButton4.Image = global::AutoCareSystem.Properties.Resources.Sell_Stock_96px;
             this.bunifuTileButton4.ImagePosition = 20;
@@ -233,7 +223,7 @@
             this.bunifuTileButton3.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.bunifuTileButton3.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.bunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton3.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.bunifuTileButton3.ForeColor = System.Drawing.Color.White;
             this.bunifuTileButton3.Image = global::AutoCareSystem.Properties.Resources.Group_Background_Selected_96px;
             this.bunifuTileButton3.ImagePosition = 20;
@@ -245,6 +235,7 @@
             this.bunifuTileButton3.Name = "bunifuTileButton3";
             this.bunifuTileButton3.Size = new System.Drawing.Size(180, 144);
             this.bunifuTileButton3.TabIndex = 4;
+            this.bunifuTileButton3.Click += new System.EventHandler(this.bunifuTileButton3_Click);
             // 
             // bunifuTileButton2
             // 
@@ -252,7 +243,7 @@
             this.bunifuTileButton2.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.bunifuTileButton2.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.bunifuTileButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton2.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.bunifuTileButton2.ForeColor = System.Drawing.Color.White;
             this.bunifuTileButton2.Image = global::AutoCareSystem.Properties.Resources.Car_Service_96px;
             this.bunifuTileButton2.ImagePosition = 20;
@@ -272,7 +263,7 @@
             this.bunifuTileButton1.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(204)))));
             this.bunifuTileButton1.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(111)))), ((int)(((byte)(194)))));
             this.bunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton1.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.bunifuTileButton1.ForeColor = System.Drawing.Color.White;
             this.bunifuTileButton1.Image = global::AutoCareSystem.Properties.Resources.Planner_96px1;
             this.bunifuTileButton1.ImagePosition = 20;
@@ -285,6 +276,16 @@
             this.bunifuTileButton1.Size = new System.Drawing.Size(180, 144);
             this.bunifuTileButton1.TabIndex = 2;
             this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AutoCareSystem.Properties.Resources.Unt5;
+            this.pictureBox1.Location = new System.Drawing.Point(15, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(243, 92);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // MainView
             // 

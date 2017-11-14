@@ -157,6 +157,25 @@ namespace AutoCareSystem
         }
 
 
+
+
+
+        //Buddhi
+
+        public static String generateEmployeeID()
+        {
+            String number = getLastInsertId("employee", "e_code").Substring(1);
+            return ("E" + String.Format(NUMBER_FORMAT, (Convert.ToInt32(number) + 1)));
+        }
+
+        public static String generateEmployeesalaryID()
+        {
+            String number = getLastInsertId("emp_salary", "sal_id").Substring(1);
+            return ("ES" + String.Format(NUMBER_FORMAT, (Convert.ToInt32(number) + 1)));
+        }
+
+
+
         public static String getLastInsertId(String tbl_name, String clm_name)
         {
             try

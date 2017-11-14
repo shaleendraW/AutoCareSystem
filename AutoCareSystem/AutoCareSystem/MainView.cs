@@ -81,5 +81,10 @@ namespace AutoCareSystem
         {
             new SubFuncSameer().Show();
         }
+
+        private void bunifuTileButton3_Click(object sender, EventArgs e)
+        {
+            new EmployeeSubFunc().Show();
+        }
     }
 }

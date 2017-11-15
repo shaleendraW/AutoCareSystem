@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace AutoCareSystem
 {
@@ -43,6 +44,33 @@ namespace AutoCareSystem
         private void chart1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnGenarete_Click(object sender, EventArgs e)
+        {
+            try{
+
+                Database db = new Database();
+                string query = "select * from sales";
+                db.sqlQuery(query);
+                SqlDataReader reader = db.getData();
+                while(reader.Read())
+                {
+
+                    chart1.Series["Sales"].Points.AddXY(reader["sales_id"].ToString(), reader["total_price"].ToString());
+
+                }
+                db.getConnection().Close();
+
+            }
+            catch (Exception ex) {
+
+                MessageBox.Show("error" + ex);
+
+
+
+
+            }
         }
     }
 }

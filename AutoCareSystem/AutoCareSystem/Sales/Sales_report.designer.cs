@@ -73,7 +73,7 @@
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
-            series1.Name = "Series1";
+            series1.Name = "Sales";
             this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(691, 341);
             this.chart1.TabIndex = 0;
@@ -136,6 +136,7 @@
             this.btnGenarete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGenarete.Textcolor = System.Drawing.Color.White;
             this.btnGenarete.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenarete.Click += new System.EventHandler(this.btnGenarete_Click);
             // 
             // bunifuFlatButton1
             // 

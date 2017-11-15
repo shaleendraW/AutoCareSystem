@@ -38,8 +38,8 @@
             this.btnGenarete = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.repairDate = new System.Windows.Forms.DateTimePicker();
+            this.DPenddate = new System.Windows.Forms.DateTimePicker();
+            this.DPstartdate = new System.Windows.Forms.DateTimePicker();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -65,6 +65,7 @@
             // 
             // chart1
             // 
+            chartArea1.AxisX.Interval = 1D;
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
@@ -72,6 +73,7 @@
             this.chart1.Location = new System.Drawing.Point(13, 19);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series1.Legend = "Legend1";
             series1.Name = "Sales";
             this.chart1.Series.Add(series1);
@@ -175,8 +177,8 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.dateTimePicker1);
-            this.groupBox5.Controls.Add(this.repairDate);
+            this.groupBox5.Controls.Add(this.DPenddate);
+            this.groupBox5.Controls.Add(this.DPstartdate);
             this.groupBox5.Controls.Add(this.materialLabel3);
             this.groupBox5.Controls.Add(this.materialLabel4);
             this.groupBox5.Location = new System.Drawing.Point(211, 15);
@@ -185,21 +187,22 @@
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
             // 
-            // dateTimePicker1
+            // DPenddate
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(115, 93);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(136, 21);
-            this.dateTimePicker1.TabIndex = 57;
+            this.DPenddate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DPenddate.Location = new System.Drawing.Point(115, 93);
+            this.DPenddate.Name = "DPenddate";
+            this.DPenddate.Size = new System.Drawing.Size(136, 21);
+            this.DPenddate.TabIndex = 57;
+            this.DPenddate.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // repairDate
+            // DPstartdate
             // 
-            this.repairDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.repairDate.Location = new System.Drawing.Point(115, 50);
-            this.repairDate.Name = "repairDate";
-            this.repairDate.Size = new System.Drawing.Size(136, 21);
-            this.repairDate.TabIndex = 56;
+            this.DPstartdate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DPstartdate.Location = new System.Drawing.Point(115, 50);
+            this.DPstartdate.Name = "DPstartdate";
+            this.DPstartdate.Size = new System.Drawing.Size(136, 21);
+            this.DPstartdate.TabIndex = 56;
             // 
             // materialLabel3
             // 
@@ -318,8 +321,8 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker repairDate;
+        private System.Windows.Forms.DateTimePicker DPenddate;
+        private System.Windows.Forms.DateTimePicker DPstartdate;
         public MaterialSkin.Controls.MaterialLabel materialLabel3;
         public MaterialSkin.Controls.MaterialLabel materialLabel4;
         private System.Windows.Forms.GroupBox groupBox1;

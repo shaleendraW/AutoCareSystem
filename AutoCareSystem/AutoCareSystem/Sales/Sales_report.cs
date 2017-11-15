@@ -49,15 +49,15 @@ namespace AutoCareSystem
         private void btnGenarete_Click(object sender, EventArgs e)
         {
             try{
-
+                
                 Database db = new Database();
-                string query = "select * from sales";
+                string query = "select * from sales where created_at BETWEEN'"+Convert.ToDateTime(DPstartdate.Text)+"' AND '"+Convert.ToDateTime(DPenddate.Text)+"'";
                 db.sqlQuery(query);
                 SqlDataReader reader = db.getData();
                 while(reader.Read())
                 {
 
-                    chart1.Series["Sales"].Points.AddXY(reader["sales_id"].ToString(), reader["total_price"].ToString());
+                    chart1.Series["Sales"].Points.AddXY(reader["created_at"].ToString(), reader["total_price"].ToString());
 
                 }
                 db.getConnection().Close();
@@ -71,6 +71,11 @@ namespace AutoCareSystem
 
 
             }
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

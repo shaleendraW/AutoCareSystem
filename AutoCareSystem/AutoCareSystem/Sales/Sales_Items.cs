@@ -568,7 +568,8 @@ namespace AutoCareSystem
         private void btnClearReturn_Click(object sender, EventArgs e)
         {
             resetFields();
-
+            lodeGridViewforcustomer();
+            lodeGridViewforStrok();
             txtName.Enabled = true;
             txtAddress.Enabled = true;
             txttelephone.Enabled = true;

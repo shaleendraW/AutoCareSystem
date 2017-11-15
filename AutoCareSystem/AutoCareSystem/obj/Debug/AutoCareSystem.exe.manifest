@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCareSystem.exe" size="1018368">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCareSystem.exe" size="1128960">
       <assemblyIdentity name="AutoCareSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dRTZ4qYXzfdlw/4vXZ05lcQD2DwgpLsbtPvAR7OXkeY=</dsig:DigestValue>
+        <dsig:DigestValue>FGZ4sswUlEgEyA+83itfEmtkEIKAqryz8W3io2q3KQs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

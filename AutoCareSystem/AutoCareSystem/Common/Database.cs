@@ -11,7 +11,7 @@ namespace AutoCareSystem
 {
     class Database
     {
-        private static String conString = "server=localhost;Trusted_Connection=yes;database=FINAL_8;connection timeout=30";
+        private static String conString = @"Data Source=LAPTOP-6C9FJ2FB\SQLEXPRESS;Initial Catalog=qwe123;Integrated Security=True";
         private SqlConnection con;
         private SqlCommand cmd;
         private SqlDataAdapter da;
@@ -86,7 +86,7 @@ namespace AutoCareSystem
                 return null;
             }
         }
-
+        // hkdufhksjdhfkjsdhfsdkjfhasdkjfhsf
         public bool nonQuery()
         {
             try

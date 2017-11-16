@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCareSystem.exe" size="1128960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCareSystem.exe" size="1129984">
       <assemblyIdentity name="AutoCareSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FGZ4sswUlEgEyA+83itfEmtkEIKAqryz8W3io2q3KQs=</dsig:DigestValue>
+        <dsig:DigestValue>PiJRHG+roUhGi5M1JVWsNIv2to9Z8akDXTh+i5N9vrk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -113,13 +113,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="AutoCareSystem.exe.config" size="184">
+  <file name="AutoCareSystem.exe.config" size="178">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
+      <dsig:DigestValue>pOyyBcweXMlNB4Kmf4v1ezhl5BH5FT8d9w+toOcdxD4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

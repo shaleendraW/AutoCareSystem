@@ -11,18 +11,19 @@ namespace AutoCareSystem
 {
     class Database
     {
-        private static String conString = @"Data Source=LAPTOP-6C9FJ2FB\SQLEXPRESS;Initial Catalog=qwe123;Integrated Security=True";
+        private static String conString = @"Data Source=LAPTOP-6C9FJ2FB\SQLEXPRESS;Initial Catalog=next123;Integrated Security=True";
         private SqlConnection con;
         private SqlCommand cmd;
         private SqlDataAdapter da;
         private DataTable dt;
 
+        // Constructor
         public Database()
         {
             try
             {
                 con = new SqlConnection(conString);
-                con.Open();
+                //con.Open();
             }
             catch (SqlException e)
             {
@@ -40,6 +41,7 @@ namespace AutoCareSystem
             return con;
         }
 
+        // Create the command from the query and the command
         public void sqlQuery(String query)
         {
             try
@@ -52,6 +54,7 @@ namespace AutoCareSystem
             }
         }
 
+        // 
         public DataTable executeQuery()
         {
             da = new SqlDataAdapter(cmd);
@@ -86,8 +89,7 @@ namespace AutoCareSystem
                 return null;
             }
         }
-        // hkdufhksjdhfkjsdhfsdkjfhasdkjfhsf
-        // lkdhjfglkdfhjglkhjdflgkhjdfglkdfjh
+
         public bool nonQuery()
         {
             try
@@ -104,7 +106,8 @@ namespace AutoCareSystem
 
         public static String getLastInsertId(String tbl_name, String clm_name)
         {
-            try {
+            try
+            {
                 String query = "SELECT TOP 1 " + clm_name + " FROM " + tbl_name + " ORDER BY " + clm_name + " DESC";
                 Database db = new Database();
                 db.sqlQuery(query);
@@ -131,5 +134,7 @@ namespace AutoCareSystem
                 return null;
             }
         }
+
+
     }
 }

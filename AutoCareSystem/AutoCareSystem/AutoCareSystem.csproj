@@ -185,6 +185,12 @@
     <Compile Include="Employee\record_attendance.designer.cs">
       <DependentUpon>record_attendance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Finance\fm_f_stats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Finance\fm_f_stats.Designer.cs">
+      <DependentUpon>fm_f_stats.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -531,36 +537,6 @@
     <Compile Include="Finance\bills_manage.designer.cs">
       <DependentUpon>bills_manage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Finance\expenses.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Finance\expenses.designer.cs">
-      <DependentUpon>expenses.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Finance\f_stats.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Finance\f_stats.designer.cs">
-      <DependentUpon>f_stats.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Finance\income.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Finance\income.designer.cs">
-      <DependentUpon>income.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Finance\loans.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Finance\loans.designer.cs">
-      <DependentUpon>loans.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Finance\profit_loss.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Finance\profit_loss.designer.cs">
-      <DependentUpon>profit_loss.cs</DependentUpon>
-    </Compile>
     <Compile Include="Finance\SubFuncSameer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -781,21 +757,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Finance\bills_manage.resx">
       <DependentUpon>bills_manage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Finance\expenses.resx">
-      <DependentUpon>expenses.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Finance\f_stats.resx">
-      <DependentUpon>f_stats.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Finance\income.resx">
-      <DependentUpon>income.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Finance\loans.resx">
-      <DependentUpon>loans.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Finance\profit_loss.resx">
-      <DependentUpon>profit_loss.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Finance\SubFuncSameer.resx">
       <DependentUpon>SubFuncSameer.cs</DependentUpon>
